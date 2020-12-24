@@ -1,0 +1,8 @@
+[
+    {"id": 0, "name": "Wizard", "resource": "Arcane Power"},
+    {"id": 1, "name": "Necromancer", "resource": "Essence"},
+    {"id": 2, "name": "Barbarian", "resource": "Fury"},
+    {"id": 3, "name": "Demon Hunter", "resource": "Hatred & Discipline"},
+    {"id": 4, "name": "Monk", "resource": "Spirit"},
+    {"id": 5, "name": "Crusader", "resource": "Wrath"}
+]

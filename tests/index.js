@@ -74,6 +74,57 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "update class",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"resource\": \"Arcane Power\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/classes/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"classes",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete a class",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/classes/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"classes",
+						"10"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
